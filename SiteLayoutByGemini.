@@ -1,0 +1,148 @@
+Lucas Antonio de Souza - Portfolio de Cursos
+
+Devido às minhas limitações como modelo de linguagem, não consigo criar um site real. No entanto, posso fornecer a estrutura HTML, CSS e JavaScript junto com o conteúdo, para que você possa criar a página.
+
+Estrutura do site:
+
+O site será dividido em seções, cada uma com um título e conteúdo específico:
+
+    Apresentação: Breve introdução sobre Lucas Antonio de Souza e seus objetivos profissionais.
+
+    Resumo de Horas Cursadas: Exibe o total de horas de treinamento realizadas.
+
+    Horas por Linguagem: Apresenta um gráfico com as horas dedicadas a cada linguagem de programação.
+
+    Soft Skills: Lista as habilidades interpessoais desenvolvidas ao longo dos cursos.
+
+    Escolas Cursadas: Mostra os logos das instituições onde os cursos foram realizados.
+
+Exemplo de código HTML:
+
+      
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfólio de Cursos - Lucas Antonio de Souza</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lucas Antonio de Souza</h1>
+    <h2>Portfólio de Cursos</h2>
+  </header>
+
+  <section id="apresentacao">
+    <!-- Conteúdo da apresentação -->
+  </section>
+
+  <section id="horas-cursadas">
+    <h2>Total de Horas Cursadas</h2>
+    <p id="total-horas"></p>
+  </section>
+
+  <section id="horas-linguagem">
+    <h2>Horas por Linguagem</h2>
+    <div id="grafico-linguagem"></div> 
+  </section>
+
+  <section id="soft-skills">
+    <h2>Soft Skills</h2>
+    <ul>
+      <!-- Lista de soft skills -->
+    </ul>
+  </section>
+
+  <section id="escolas">
+    <h2>Escolas Cursadas</h2>
+    <div id="logos-escolas">
+      <!-- Logos das escolas --> 
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
+
+Use code with caution.Html
+
+Exemplo de código CSS (style.css):
+
+      
+/* Estilização geral do site */
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Estilização específica para cada seção */
+#grafico-linguagem {
+  width: 500px;
+  height: 300px;
+}
+
+#logos-escolas img {
+  width: 100px;
+  margin: 10px;
+}
+
+    
+
+Use code with caution.Css
+
+Exemplo de código JavaScript (script.js):
+
+      
+// Cálculo do total de horas cursadas
+const totalHoras = calcularTotalHoras(dados); // Função para calcular o total de horas a partir dos dados
+document.getElementById("total-horas").textContent = `Total de horas: ${totalHoras}`; 
+
+// Geração do gráfico de horas por linguagem
+gerarGraficoLinguagem(dados); // Função para gerar o gráfico a partir dos dados
+
+// Adicionar soft skills à lista
+const softSkills = ["Trabalho em equipe", "Comunicação", "Resolução de problemas", ...];
+const listaSoftSkills = document.querySelector("#soft-skills ul");
+softSkills.forEach(skill => {
+  const item = document.createElement("li");
+  item.textContent = skill;
+  listaSoftSkills.appendChild(item);
+});
+
+// Adicionar logos das escolas
+const escolas = ["DIO", "Impacta", "UniBTA", "Escola do Trabalhador 4.0"];
+const divLogos = document.getElementById("logos-escolas");
+escolas.forEach(escola => {
+  const img = document.createElement("img");
+  img.src = `logos/${escola}.png`; // Substituir pelo caminho real das imagens
+  img.alt = escola;
+  divLogos.appendChild(img);
+});
+
+    
+
+Use code with caution.Js
+
+Próximos Passos:
+
+    Substitua os comentários nos códigos HTML, CSS e JavaScript pelo conteúdo real.
+
+    Crie as funções calcularTotalHoras e gerarGraficoLinguagem em JavaScript para processar os dados dos cursos.
+
+    Você pode utilizar bibliotecas como Chart.js para criar o gráfico de horas por linguagem.
+
+    Crie os arquivos de imagem dos logos das escolas e coloque-os na pasta "logos".
+
+    Salve todos os arquivos na mesma pasta e abra o arquivo HTML no seu navegador para visualizar o site.
+
+Lembre-se de que este é apenas um exemplo básico. Você pode personalizar o design e a funcionalidade do site de acordo com suas preferências e necessidades.
