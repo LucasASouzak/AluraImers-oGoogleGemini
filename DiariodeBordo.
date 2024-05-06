@@ -256,5 +256,18 @@ Certificados:
     Fundamentos de Business Intelligence (BI): 2h, 2
 Ainda com dados incompletos e incorretos.
 
+Resolvi utilizar intruções de filtragem Similares as contidas no Zendesk:
+
+Crie uma planilha com as colunas:
+
+ID/Escola/Curso/Carga/Linguagem/Ferramentas/Conclusão/
+Substituição quando tiver ID a Escola é D.I.O
+Quando não tiver ID nem Escola, a escola é IMPACTA
+Quando tiver Escola do trabalhador manter
+
+Manter todas as informações abaixo:
+
+Com somente essas informações e de forma mais estruturada em SE, foi possivel conseguir o resultado abaixo.
+https://docs.google.com/spreadsheets/d/1MI9JswPQb-cymYUjWywhM82kW6k-xWl8iQ6iAo8Emq4/edit?usp=sharing
 
 
